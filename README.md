@@ -1,8 +1,10 @@
 # Hey, I'm Nelson 👋
 
-**Platform engineer who ships things that run themselves** — Kubernetes
-operators, GitOps pipelines, self-hosted infrastructure with hard isolation
-walls. Based in Portugal 🇵🇹 · [nelsoncarv.work](https://nelsoncarv.work)
+**I'm passionate about building and leading teams to create rock-solid
+platforms, helping everyone ship with confidence.** My work sits at the
+intersection of platform engineering, Kubernetes operators, GitOps, and
+self-hosted infrastructure with hard isolation walls. Based in Portugal 🇵🇹 ·
+[nelsoncarv.work](https://nelsoncarv.work)
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
@@ -18,34 +20,37 @@ walls. Based in Portugal 🇵🇹 · [nelsoncarv.work](https://nelsoncarv.work)
 
 ### 🕵️ [zeedfai-kubernetes-operator-gitops](https://github.com/nelsudev/zeedfai-kubernetes-operator-gitops)
 
-A Kubernetes operator (Go) that runs fraud-scoring stream pipelines — and
-**proves it can be trusted with them**: consumer-lag autoscaling, SLO
-self-healing, canary with automatic rollback, all delivered through FluxCD.
-Every claim verified with a live run (burst 3 000 ev/s → replicas 2→10→2;
-a 50%-fault canary rolled back automatically in ~80 s), with the bugs found
-along the way documented in the FAQ and postmortems — not hidden.
+A Kubernetes operator in Go for fraud-scoring stream pipelines — built to
+show real platform-engineering practice, not toy demos. It scales on
+consumer lag instead of CPU, self-heals when p99.9 latency breaches the
+SLO, and rolls back bad canaries automatically while keeping Git as the
+source of truth through FluxCD. The important part: the claims are backed
+by live runs, verified timings, FAQs, and postmortems.
 
 ### 🏰 [vps-multi-tenant-sovereign](https://github.com/nelsudev/vps-multi-tenant-sovereign)
 
-One VPS, many tenants, zero awareness of each other. Incus + rootless
-Docker + ZFS + per-tenant Cloudflare Tunnels — a full design study plus a
-ready-to-run Ansible template. Built for running untrusted workloads (AI
-agents included) where the neighbor shouldn't just be blocked; it should
-**not exist**.
+One VPS, many tenants, zero awareness of each other. A design study plus
+Ansible template built around Incus, rootless Docker, ZFS, and per-tenant
+Cloudflare Tunnels. It is aimed at self-hosting multiple projects or
+untrusted AI workloads with strong operational isolation, where a tenant
+should not be able to discover that any neighbor exists at all.
 
 ## 🧭 How I work
 
 - **Verify live, then write it down.** A feature isn't done when it
   compiles — it's done when it survived a burst test, a killed broker, or a
   deliberately broken canary, and the run is on the record.
+- **Build platforms people can trust.** I care about systems that are
+  observable, explainable, and calm under failure, so teams can ship
+  without guessing what will break next.
 - **GitOps as a discipline, not a buzzword.** The cluster reflects Git,
   never the other way around — my operators refuse to fight Flux over the
   source of truth by design.
 - **Honest docs.** Every design decision ships with its trade-offs and its
   failure modes; my FAQs are built from the problems I actually hit.
-- **AI-assisted, engineer-driven.** I build with Claude (Fable/Claude Code)
-  as a daily tool — the architecture conversations, the verification runs,
-  and the judgment stay mine.
+- **AI-assisted, engineer-driven.** I use AI heavily for architecture
+  exploration, implementation acceleration, and iteration, but verification,
+  trade-offs, and final judgment stay mine.
 
 ## 📫 Reach me
 
