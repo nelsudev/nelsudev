@@ -1,9 +1,8 @@
 # Hey, I'm Nelson 👋
 
-**I'm passionate about building and leading teams to create rock-solid
-platforms, helping everyone ship with confidence.** My work sits at the
-intersection of platform engineering, Kubernetes operators, GitOps, and
-self-hosted infrastructure with hard isolation walls. Based in Portugal 🇵🇹 ·
+**Platform Engineer focused on GitOps, GitHub Actions, and automation everywhere.**
+Building rock-solid platforms, AI-assisted systems, and tools to help me and
+my teams ship with confidence. Based in Portugal 🇵🇹 ·
 [nelsoncarv.work](https://nelsoncarv.work)
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
