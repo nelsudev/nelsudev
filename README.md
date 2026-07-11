@@ -5,7 +5,6 @@ Building rock-solid platforms, AI-assisted systems, and tools to help me and
 my teams ship with confidence. Based in Portugal 🇵🇹 ·
 [nelsoncarv.work](https://nelsoncarv.work)
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![FluxCD](https://img.shields.io/badge/FluxCD-5468FF?style=flat-square)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
