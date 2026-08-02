@@ -51,8 +51,9 @@ its neighbours.
   truth, and platform behavior stays explicit and reviewable.
 - **Lead with practical solutions.** I care about clear trade-offs, useful
   automation, and giving engineers the context to move independently.
-- **AI-assisted, engineer-driven.** AI accelerates exploration and delivery;
-  verification, judgment, and accountability stay human.
+- **AI-assisted, engineer-driven.** I use AI agents to accelerate exploration
+  and delivery; I set the direction, review the work, and stay accountable for
+  the outcome.
 
 ## Let's connect
 
